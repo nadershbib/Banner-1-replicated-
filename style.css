@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    padding: 20px 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(52, 53, 52);
+
+}
+
+@media(max-width:500px){
+    nav{
+        flex-direction: column;
+        
+    }
+    nav .logo{
+        margin-bottom: 10px;
+    }
+    
+    .banner-text{
+        margin-left: 1rem;
+    }
+    .banner-area{
+        height: calc(100vh - 105.6px) !important;
+
+    }
+}
+
+
+.logo{
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     color: #fff;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+
+}
+
+a{
+    text-decoration: none;
+    margin: 0 8px;
+    display: inline-block;
+    font-size: 1.175rem;
+    color: #fff;
+}
+
+
+.banner-area{
+    height: calc(100vh - 73.6px);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://w.wallhaven.cc/full/0w/wallhaven-0wk1vr.jpg')center/cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-text{
+    margin-left: 3.55rem;
+   
+
+}
+
+.banner-text h1{
+    color: #fff;
+    font-size: 3.45rem;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+
+.banner-text p{
+    font-size: 1.3rem;
+    max-width: 68%;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 40px;
+
+}
+
+
+.banner-text button{
+    text-align: center;
+    padding: 14px 40px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1.2rem;
+    background-color: rgb(201, 62, 27);
+    border: 0.3px solid black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
